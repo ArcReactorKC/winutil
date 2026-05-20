@@ -1,36 +1,26 @@
 Function Show-CTTLogo {
     <#
         .SYNOPSIS
-            Displays the CTT logo in ASCII art.
+            Displays the Jonathan branding in ASCII art.
         .DESCRIPTION
-            This function displays the CTT logo in ASCII art format.
+            This function displays Jonathan's Big Damn Windows Tool branding in ASCII art format.
         .PARAMETER None
             No parameters are required for this function.
         .EXAMPLE
             Show-CTTLogo
-            Prints the CTT logo in ASCII art format to the console.
+            Prints Jonathan's branding in ASCII art format to the console.
     #>
 
     $asciiArt = @"
-    CCCCCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
- CCC::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T
-CC:::::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T
-C:::::CCCCCCCC::::CT:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T
-C:::::C       CCCCCCTTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C       CCCCCC        T:::::T                T:::::T
-C:::::CCCCCCCC::::C      TT:::::::TT            TT:::::::TT
-CC:::::::::::::::C       T:::::::::T            T:::::::::T
-CCC::::::::::::C         T:::::::::T            T:::::::::T
-  CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT
+     _                 _   _                 
+    | | ___  _ __   __| | | |__  _   _       
+ _  | |/ _ \| '_ \ / _` | | '_ \| | | |      
+| |_| | (_) | | | | (_| | | |_) | |_| |      
+ \___/ \___/|_| |_|\__,_| |_.__/ \__, |      
+                                 |___/       
 
-====Chris Titus Tech=====
-=====Windows Toolbox=====
+======= Jonathan's Big Damn =======
+========= Windows Tool ============
 "@
 
     Write-Host $asciiArt
